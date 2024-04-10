@@ -27,12 +27,12 @@ const ProductsList = () => {
             <h1>Список товаров</h1>
             <ul>
                 {products.map(product => (
-                    <li key={product.imageId}>
-                        <img src={`data:image;base64,${product.image}`} alt={product.title} />
+                    <li key={product.id}>
+                        <img src={`data:image;base64,${product.imageData}`} alt={product.title} />
                         <p>{product.title}</p>
                         <p>{product.price}</p>
                         <p>{product.userId}</p>
-                        <p>{product.userLogin}</p>
+                        <p>{product.login}</p>
                     </li>
                 ))}
             </ul>
