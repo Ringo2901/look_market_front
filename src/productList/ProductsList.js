@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import defaultImage from './defaultImage.png';
 
 const ProductsList = () => {
     const [products, setProducts] = useState([]);
@@ -35,7 +34,7 @@ const ProductsList = () => {
                                  className="card-img-top"
                                  style={{height: '200px', objectFit: 'cover'}}/>
                         ) : (
-                            <img src={defaultImage} alt="Default Image" className="card-img-top"
+                            <img src={'/images/defaultImage.png'} alt="Default Image" className="card-img-top"
                                  style={{height: '200px', objectFit: 'cover'}}/>
                         )}
                         <div className="card-body">
