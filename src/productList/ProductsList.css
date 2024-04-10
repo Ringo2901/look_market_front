@@ -1,0 +1,42 @@
+.products-list-container {
+    padding: 20px;
+}
+
+.products-list {
+    list-style: none;
+    padding: 0;
+}
+
+.product-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.product-details {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.product-title {
+    font-weight: bold;
+}
+
+.product-price {
+    color: green;
+}
+
+.product-user {
+    font-style: italic;
+}
+
+.product-login {
+    color: #333;
+}
