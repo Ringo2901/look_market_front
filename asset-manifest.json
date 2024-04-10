@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/look_market_front/static/css/main.e6c13ad2.css",
-    "main.js": "/look_market_front/static/js/main.123d1062.js",
+    "main.js": "/look_market_front/static/js/main.d60c3b88.js",
     "static/js/453.fcc99a74.chunk.js": "/look_market_front/static/js/453.fcc99a74.chunk.js",
     "index.html": "/look_market_front/index.html",
     "main.e6c13ad2.css.map": "/look_market_front/static/css/main.e6c13ad2.css.map",
-    "main.123d1062.js.map": "/look_market_front/static/js/main.123d1062.js.map",
+    "main.d60c3b88.js.map": "/look_market_front/static/js/main.d60c3b88.js.map",
     "453.fcc99a74.chunk.js.map": "/look_market_front/static/js/453.fcc99a74.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.123d1062.js"
+    "static/js/main.d60c3b88.js"
   ]
 }
